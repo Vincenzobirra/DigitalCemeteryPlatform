@@ -1,0 +1,206 @@
+*{
+  font-family: monospace!important;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.input {
+  margin: 5px;
+}
+
+.footer-login {
+  position: fixed;
+  bottom: 1px;
+  width: 100%;
+  text-align: center;
+ 
+}
+
+.col-login{
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  background:#003B95;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 50vh;
+
+}
+
+#layout {
+  height: 100vh;
+}
+
+.logo{
+  width: 100%;
+}
+
+.container-form-cemetery{
+  justify-content: center;
+  display: flex;
+  overflow: auto;
+  height: 70vh;
+}
+
+.arrow-back {
+  font-size: 30px;
+}
+
+.arrow-back:hover {
+  color: rgb(151, 151, 151);
+  cursor: pointer;
+}
+
+.cardSector {
+    width: 25%;
+    text-align: center;
+    border: 3px ridge #dbdbdb;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.cardSector:hover {
+  cursor: pointer;
+}
+
+.bglogin {
+  height: 100vh;
+  background: rgb(207,207,207);
+  background: radial-gradient(circle, rgba(207,207,207,1) 20%, rgba(255,255,255,1) 83%);
+  
+}
+
+.container-login{
+  display: flex;
+  justify-content: center;
+  padding-top: 15vh
+  
+}
+
+.logo-home{
+  stroke: rgb(158, 158, 158);
+  width: 60vh;
+  margin-top: 5vh;
+ 
+}
+
+.container-logo-home{
+  display: flex;
+  justify-content: center;
+  position: relative;
+ 
+}
+
+.logo-graveyard{
+  height: 70%
+}
+
+.scrollBar, .ant-layout-content, .ant-spin-container{
+  overflow-y: auto;
+  overflow-x: auto;
+  height: 80vh;
+  width: 100%;
+}
+
+.loader {
+  position: absolute;
+  z-index: 6;
+}
+
+.loaderContainer{
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.329);
+}
+
+@media screen and (max-width: 991px) {
+  .viewBlock, .blockSectors, .buttonViewListDeceaseds, .setButton, .addDeceased{
+    display: none;
+  }
+
+  .buttonViewListDeceasedsMobile{
+    display: flex!important;
+
+  }
+  .logOutButton{
+      display: none;
+  }
+  .viewListBlock, .setButtonMobile{
+    display: contents!important;
+  }
+
+  .logOutButtonMobile{
+      display: unset!important;
+      margin: 5px;
+      margin-top: 0;
+  }
+}
+
+.ant-layout-content{
+  margin: 0px!important;
+  padding: 0px 20px 0px 20px!important;
+}
+
+ .ant-menu-submenu-title:hover{
+  color: rgb(163, 157, 157)!important;
+}
+
+.ant-menu-title-content:hover{
+  color: rgb(163, 157, 157)!important;
+}
+
+.ant-menu-submenu-title{
+  color: rgb(255, 249, 249)!important;
+}
+
+.tableRow{
+  position: relative;
+  cursor:pointer 
+}
+
+.ant-spin-container{
+  overflow-y: unset!important;
+  overflow-x: unset!important;
+}
+
+*{
+  box-sizing: border-box!important;
+}
+
+.ant-table-body{
+  height: 73vh!important;
+}
+
+
+.close {
+  display: none!important;
+}
+
+.containerFilter > * {
+  
+}
